@@ -1,0 +1,221 @@
+﻿#container {
+	background-color: #F6D527;
+}
+
+/*כפתור כתום*/
+#orangeBTN {
+    background-image: url(../img/orangeBtn.png);
+    left: 72%;
+    top: 14%;
+    width: 18vw;
+    height: 39vh;
+    max-width: 199px
+}
+#orangeClick {
+	left: 72%;
+	top: 33%;
+	width: 18vw;
+	height: 9vh;
+	max-width: 230px;
+	background-color: white;
+	opacity: 0;
+	position: absolute;
+	z-index: 2;
+	display: inline-block;
+}
+
+/*כפתור ורוד*/
+#pinkBTN {
+	background-image: url(../img/PIBtn.png);
+	left: 60%;
+	top: 3%;
+	width: 24vw;
+	height: 36vh;
+	max-width: 200px;
+}
+#pinkClick {
+	left: 62%;
+	top: 18%;
+	width: 20vw;
+	height: 9vh;
+	max-width: 230px;
+	background-color: white;
+	opacity: 0;
+	position: absolute;
+	z-index: 2;
+	display: inline-block;
+}
+
+/*כפתור סגול*/
+#purpelBTN {
+	background-image: url(../img/PBtn.png);
+	left: 35%;
+	top: 0%;
+	width: 26vw;
+	height: 36vh;
+	z-index: 0;
+}
+#purpelClick {
+	left: 44%;
+	top: 16%;
+	width: 15vw;
+	height: 10vh;
+	max-width: 230px;
+	background-color: white;
+	opacity: 0;
+	position: absolute;
+	z-index: 2;
+	display: inline-block;
+}
+
+/*כפתור כחול*/
+#blueBTN {
+	background-image: url(../img/BBtn.png);
+	/*margin-top: 132px;
+    margin-left: 116px;*/
+	left: 19%;
+	top: 7%;
+	width: 26vw;
+	height: 36vh;
+	z-index: 0;
+}
+#blueClick {
+	left: 23%;
+	top: 26%;
+	width: 18vw;
+	height: 10vh;
+	max-width: 230px;
+	background-color: white;
+	opacity: 0;
+	position: absolute;
+	z-index: 2;
+	display: inline-block;
+}
+
+/*כפתור ירוק*/
+#greenBTN {
+	background-image: url(../img/GBtn.png);
+	left: 19%;
+	top: 26%;
+	width: 25vw;
+	height: 36vh;
+	max-width: 230px;
+	z-index: 0;
+}
+#greenClick {
+	left: 19%;
+	top: 40%;
+	width: 25vw;
+	height: 14vh;
+	max-width: 230px;
+	background-color: white;
+	opacity: 0;
+	position: absolute;
+	z-index: 2;
+	display: inline-block;
+}
+
+/*צורות הכפתורים*/
+.item {
+	width: 28%;
+	height: 40%;
+	margin: 0;
+	color: #fff5ec;
+	text-decoration: none;
+	padding: 10px;
+	display: inline-block;
+	position: absolute;
+	-webkit-transform-origin: calc(100% + 130px) 50%;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	max-height: 330px;
+	max-width: 230px;
+}
+
+/*כל האינפוגרפיקה כולל תמונת ההורים*/
+.items {
+	position: relative;
+	height: 79vh;
+	width: 100vw;
+	background-image: url(../img/PARENTS.png);
+	background-repeat: no-repeat;
+    background-position: 63% 30vh;
+	background-size: 29%;
+	max-width: 865px;
+	max-height: 750px;
+	margin: 0 auto;
+}
+
+/*עיצוב פופ אפ*/
+.popupDesign {
+	font-family: Rubik;
+	background-color: white;
+	border: none;
+	border: 1px solid none;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	text-align: justify;
+	direction: rtl;
+	line-height: 25px;
+}
+.popupDesign span:nth-child(2){
+		margin: 39px;
+}
+
+.close {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/close.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+/*עיצוב פסקת פתיחה*/
+p#myInfo{
+	 margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: justify;
+    direction: rtl;
+    font-size: 11pt;
+    color: #4F241C;
+    text-shadow: none;
+	padding: 5px;
+	font-family:Rubik;
+ }
+
+/*לינק לאתר הפקולטה*/
+#TLM{
+	font-family:Rubik;
+	color:blue;
+	text-decoration:solid;
+}
+#TLM:hover{
+	font-weight:bold;
+}
+#TLM:visited {
+	color:purple;
+}
+#odotClick{
+color:white;
+}
+/*הגדרות המבטלות את העיצוב הדיפולטיבי של בוסטראפ וג'ייקווארימובייל*/
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+	background-color: transparent;
+	color: white;
+	border:none;
+}
+.uai-heder, .ui-footer {
+	border-style: none;
+}
+.ui-header .ui-title, .ui-footer .ui-title {
+		font-family: 'Rubik', sans-serif;
+			text-align:center;
+	font-size:18pt;
+}
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head+body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head+body .ui-btn.ui-btn-a:visited{
+background-color:transparent;
+border:none;
+text-shadow:none;
+}
